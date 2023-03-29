@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.aula_2023_03_29.Ex_2Test
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.11 s <<< FAILURE! - in com.mycompany.aula_2023_03_29.Ex_2Test
+testeMaiorTempoMenorSaldo{int, int}[1]  Time elapsed: 0.041 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Sim> but was: <Não>
+	at com.mycompany.aula_2023_03_29.Ex_2Test.testeMaiorTempoMenorSaldo(Ex_2Test.java:47)
+
+testeMaiorTempoMenorSaldo{int, int}[2]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Sim> but was: <Não>
+	at com.mycompany.aula_2023_03_29.Ex_2Test.testeMaiorTempoMenorSaldo(Ex_2Test.java:47)
+
+testeMenorTempoMenorSaldo{int, int}[1]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Sim> but was: <Não>
+	at com.mycompany.aula_2023_03_29.Ex_2Test.testeMenorTempoMenorSaldo(Ex_2Test.java:28)
+
+testeMenorTempoMenorSaldo{int, int}[2]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Sim> but was: <Não>
+	at com.mycompany.aula_2023_03_29.Ex_2Test.testeMenorTempoMenorSaldo(Ex_2Test.java:28)
+
+testeMenorTempoMaiorSaldo{int, int}[1]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Sim> but was: <Não>
+	at com.mycompany.aula_2023_03_29.Ex_2Test.testeMenorTempoMaiorSaldo(Ex_2Test.java:38)
+
+testeMenorTempoMaiorSaldo{int, int}[2]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Sim> but was: <Não>
+	at com.mycompany.aula_2023_03_29.Ex_2Test.testeMenorTempoMaiorSaldo(Ex_2Test.java:38)
+
