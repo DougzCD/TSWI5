@@ -33,8 +33,11 @@ public class Ex_4Test {
         
         String esperado[] = d;
         String obtido[] = Ex_4.ex_4(a, b, c);
-        assertEquals(esperado, obtido); 
-        //System.out.println("method data " + esperado + " value " + obtido);
+
+        for (int i = 0; i < esperado.length; i++)
+            assertEquals("sla"+i, esperado, obtido); 
+            
+        System.out.println("method data " + esperado + " value " + obtido);
     }
     
 }
